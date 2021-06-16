@@ -77,6 +77,37 @@ footer section i {
 #editorjs {
   width: 384px;
   padding-top: 25px;
+.rettangolo{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    border: 6px solid #FF4655;
+    background-image: url(http://165.22.66.236:2222/api/render?url=https://sudoku-del-giorno.netlify.app&output=screenshot&viewport.width=384&screenshot.selector=%23scontrino);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px 300px ;
+}
+
+.rettangolo-drink{
+    background-image: url(http://165.22.66.236:2222/api/render?url=https://cocktailrandom.netlify.app&output=screenshot&viewport.width=384&screenshot.selector=%23scontrino);
+    height: 500px;
+    width: 300px;
+    background-color: white;
+    border: 6px solid #FF4655;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:auto;
+}
+
+.rettangolo-covid{
+    background-image: url(http://165.22.66.236:2222/api/render?url=https://covid-italy-little-printer.netlify.app/&output=screenshot&viewport.width=384&screenshot.selector=%23scontrino);
+    height: 900px;
+    width: 300px;
+    background-color: white;
+    border: 6px solid #FF4655;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 
 .display-none {
