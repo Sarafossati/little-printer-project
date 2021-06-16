@@ -1,76 +1,88 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 
-h1{
-    color: #0069B4;
-    font-weight: 900;
-    font-size: 35px;
-    padding-top: 1em;
+h1 {
+  color: #0069b4;
+  font-weight: 900;
+  font-size: 35px;
+  padding-top: 1em;
 }
 
-footer a{
-    color: #0069B4;
+footer a {
+  color: #0069b4;
 }
 
-a{
-    text-decoration: none;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: #ffffff; 
-    font-size: 24px;
+a {
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 24px;
 }
 
-body{
-    display: flex;
-    flex-direction: column;
-    justify-self: center;
-    align-items: center;
-    text-align: center;
-    padding: 0 15px;
+body {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 15px;
 }
 
-main div{
-    background-color: #0069B4 ;
-    border-radius: 30px;
-    padding: 30px;
-    margin: 2em 0;
-    height: 100px;
+/* main div {
+  background-color: #0069b4;
+  border-radius: 30px;
+  padding: 30px;
+  margin: 2em 0;
+  height: 100px;
+} */
+
+footer a {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
-footer a{
-    cursor: pointer;
-    text-decoration: underline;
+footer section i {
+  background-color: #ff4655;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  padding-top: 10px;
+  color: #ffffff;
+  margin: 2em 7px;
 }
 
-footer section i{
-    background-color: #FF4655;
-    border-radius: 50%;
-    height: 40px;
-    width: 40px;
-    padding-top: 10px;
-    color: #ffffff;
-    margin: 2em 7px;
-}
-
-
-.rettangolo{
-    height: 300px;
-    width: 300px;
-    background-color: white;
-    border: 6px solid #FF4655;
-    background-image: url(http://165.22.66.236:2222/api/render?url=https://sudoku-del-giorno.netlify.app&output=screenshot&viewport.width=384&screenshot.selector=%23scontrino);
-    background-repeat: no-repeat;
+.rettangolo {
+  height: 300px;
+  width: 300px;
+  background-color: white;
+  border: 6px solid #ff4655;
+  background-image: url(http://165.22.66.236:2222/api/render?url=https://sudoku-del-giorno.netlify.app&output=screenshot&viewport.width=384&screenshot.selector=%23scontrino);
+  background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center; 
+  background-position: center;
 }
 
-.buttons{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#editorjs {
+  width: 384px;
+  padding-top: 25px;
+}
+
+.display-none {
+  display: none;
+}
+
+.codex-editor__redactor {
+  padding-bottom: 0px !important;
 }

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohole little printer</title>
+    <link rel="stylesheet" href="fontawesome/css/all.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Little Printer Workshop</h1>
+    </header>
+    <main>
+      <div style="background-color: #ff4655">
+        <a>Editor</a>
+      </div>
+      <div id="editorjs">
+        <p>
+          <input
+            type="file"
+            accept="image/*"
+            name="image"
+            id="file"
+            onchange="loadFile(event)"
+            style="display: none"
+          />
+        </p>
+        <p>
+          <label class="update-img" for="file" style="cursor: pointer"
+            >Upload Image</label
+          >
+        </p>
+        <p><img id="output" width="384" /></p>
+      </div>
+    </main>
+    <section class="buttons">
+      <div
+        style="
+          border: 2px solid #0069b4;
+          border-radius: 20px;
+          padding: 10px;
+          margin: 15px;
+        "
+      >
+        <a href="index.html" style="color: #0069b4; font-size: 20px"
+          >Indietro</a
+        >
+      </div>
+      <div
+        style="
+          background-color: #ff4655;
+          color: #ffffff;
+          border-radius: 20px;
+          padding: 10px;
+          margin: 15px;
+        "
+      >
+        <a href="#" style="font-size: 20px">Stampa</a>
+      </div>
+    </section>
+    <footer style="margin-top: 20px">
+      <a href="https://www.moholepeople.it/codefighters/">By CodeFighter</a>
+      <section>
+        <i class="fas fa-phone-alt"></i>
+        <i class="fas fa-envelope"></i>
+        <i class="fas fa-desktop"></i>
+      </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@editorjs/editorjs@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@editorjs/header@latest"></script>
+    <script src="./scripts/editor.js"></script>
+  </body>
+</html>
