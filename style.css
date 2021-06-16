@@ -5,6 +5,16 @@
   font-family: "Montserrat", sans-serif;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 15px;
+}
+
+/* index.html */
 h1 {
   color: #0069b4;
   font-weight: 900;
@@ -12,8 +22,12 @@ h1 {
   padding-top: 1em;
 }
 
-footer a {
-  color: #0069b4;
+.cta-workshop div {
+  background-color: #0069b4;
+  border-radius: 30px;
+  padding: 30px;
+  margin: 2em 0;
+  height: 100px;
 }
 
 a {
@@ -24,26 +38,10 @@ a {
   font-size: 24px;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-  justify-self: center;
-  align-items: center;
-  text-align: center;
-  padding: 0 15px;
-}
-
-/* main div {
-  background-color: #0069b4;
-  border-radius: 30px;
-  padding: 30px;
-  margin: 2em 0;
-  height: 100px;
-} */
-
 footer a {
   cursor: pointer;
   text-decoration: underline;
+  color: #0069b4;
 }
 
 footer section i {
@@ -77,6 +75,7 @@ footer section i {
 #editorjs {
   width: 384px;
   padding-top: 25px;
+}
 .rettangolo{
     height: 300px;
     width: 300px;
@@ -108,6 +107,17 @@ footer section i {
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto;
+}
+
+.rettangolo-poesia{
+  background-image: url(http://165.22.66.236:2222/api/render?url=https://poesia-del-giorno.netlify.app/&output=screenshot&viewport.width=384&screenshot.selector=%23scontrino);
+  height: 355px;
+  width: 416px;
+  background-color: white;
+  border: 6px solid #FF4655;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 
 .display-none {
