@@ -55,3 +55,22 @@ footer section i{
     color: #ffffff;
     margin: 2em 7px;
 }
+
+
+.rettangolo{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    border: 6px solid #FF4655;
+    background-image: url(http://165.22.66.236:2222/api/render?url=https://sudoku-del-giorno.netlify.app&output=screenshot&viewport.width=384&screenshot.selector=%23scontrino);
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
